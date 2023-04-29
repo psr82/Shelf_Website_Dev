@@ -643,6 +643,7 @@ body {
   font-family: Georgia, Times, Times New Roman, serif;
   line-height: 25px;
   display: block;
+  color: #000;
 }
 
 .text-block-4 {
@@ -1461,6 +1462,7 @@ body {
   padding-right: 33%;
   font-size: 180%;
   line-height: 100%;
+  color:#000
 }
 
 .text-span {
@@ -1492,6 +1494,7 @@ body {
   margin-top: 5%;
   font-size: 180%;
   line-height: 100%;
+  color:#000
 }
 
 .text-span-2 {
