@@ -1,6 +1,7 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Mon Aug 08 2022 16:39:29 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="62c0abfe7389251982a63034" data-wf-site="62c0abfe738925707ba63033">
+<!--  Last Published: Sat Apr 29 2023 08:30:42 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="63e8ed1568e326ca0ae7352d" data-wf-site="63e8ed1568e326a83de7352c">
+
 <head>
   <meta charset="utf-8">
   <title>Shelf</title>
@@ -8,259 +9,837 @@
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/shelf-3d952f.webflow.css" rel="stylesheet" type="text/css">
+  <link href="./css/custom1.css" rel="stylesheet">
+  <link href="css/shelf-rebranded.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Inter:100,200,300,regular,500,600,700,800,900"]  }});</script>
+  <script
+    type="text/javascript">WebFont.load({ google: { families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Inter:100,200,300,regular,500,600,700,800,900:cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese", "Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"] } });</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
+
 <body class="body">
-  <div class="navbar-logo-left wf-section">
-    <div id="Home" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left-container shadow-three w-nav">
-      <div class="navbar-wrapper">
-        <a href="#" class="navbar-brand w-nav-brand"><img src="images/ssa.png" loading="lazy" width="100" alt="Shelf: Neobank for New Needs" class="image"></a>
-        <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
-          <ul role="list" class="nav-menu-two w-list-unstyled">
-            <li>
-              <a href="#About-Us" class="nav-link">About</a>
-            </li>
-            <li>
-              <a href="#Cards" class="nav-link">Cards</a>
-            </li>
-            <li>
-              <a href="#Why-us" class="nav-link">Why Us?</a>
-            </li>
-            <li>
-              <div class="nav-divider"></div>
-            </li>
-            <li class="mobile-margin-top-10">
-              <a href="mailto:admin@shelfpay.in" class="button-primary w-button">Contact us</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="menu-button w-nav-button">
-          <div class="w-icon-nav-menu"></div>
+  <div class="navbar-no-shadow wf-section">
+    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
+      role="banner" class="navbar-no-shadow-container w-nav">
+      <div class="container-regular">
+        <div class="navbar-wrapper">
+          <a href="#" class="navbar-brand w-nav-brand"><img src="images/Shelf-Logo-Website.svg" loading="lazy"
+              alt=""></a>
+          <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
+            <ul role="list" class="nav-menu w-list-unstyled">
+              <li>
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#About-Us" class="nav-link">About</a>
+              </li>
+              <li>
+                <a href="#What-s-on-Shelf" class="nav-link">Features</a>
+              </li>
+              <li>
+                <a href="#Testimonials" class="nav-link">Why Us?</a>
+              </li>
+              <!-- <li>
+                <a href="blogs.html" target="_blank" class="nav-link">Blogs</a>
+              </li> -->
+              <li class="mobile-margin-top-10">
+                <div class="nav-button-wrapper">
+                  <a href="mailto:admin@shelfpay.in" class="button-primary w-button">Contact Us</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu-button w-nav-button">
+            <div class="icon-8 w-icon-nav-menu"></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-11 w-container">
-    <div id="Head" class="columns-3 w-row">
-      <div class="column-8 w-col w-col-6">
-        <h1 class="heading-19">Manage your money from one place.<br><span class="text-span-8">Neobank for Young Professionals</span></h1>
-        <div class="form-block w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" action="https://shelfpay.us14.list-manage.com/subscribe/post?u=68b87cc4cdf4d98bf950cdd8d&amp;amp;id=3e1ace8ef8" method="post" class="form"><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required=""><input type="submit" data-wait="Please wait..." value="Get Access" class="submit-newq w-button"></form>
-          <div class="success-message w-form-done">
-            <div class="text-block">Thank you! We&#x27;ll share the app with you soon.</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form.</div>
-          </div>
-        </div>
-        <a data-w-id="7a91284b-a6c0-2d06-e44a-c12b03d50156" href="#" class="submit-button w-button">Get Access</a>
-      </div>
+  <div class="section-5 wf-section">
+    <div class="div-block-9">
+      <div class="text-block-6"><strong class="bold-text">Sign-up today &amp; get a Free Group card!</strong></div>
+    </div>
+    <div class="w-embed w-iframe w-script">
+      <div data-tf-sidetab="gOQ7Tpdc" data-tf-custom-icon="https://images.typeform.com/images/SuCarUNAXmdV"
+        data-tf-opacity="100" data-tf-iframe-props="title=Personality Quiz" data-tf-transitive-search-params=""
+        data-tf-button-color="#375CDC" data-tf-button-text="Check this out!" data-tf-medium="snippet"
+        style="all:unset;"></div>
+      <script src="https://embed.typeform.com/next/embed.js"></script>
+    </div>
+    <div class="columns-10 w-row">
       <div class="w-col w-col-6">
-        <div class="lottie-animation-2" data-w-id="1f69bc3c-5568-73e3-2265-a69dc5d29631" data-animation-type="lottie" data-src="documents/Phone-screens-remix-4.json" data-loop="0" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="3.0166666666666666" data-duration="0"></div>
-      </div>
-    </div>
-  </div>
-  <div id="About-Us" class="container-3 w-container">
-    <div class="columns w-row">
-      <div class="column w-col w-col-6">
-        <h1 class="heading-4">Pay anywhere with <span class="text-span">Group Wallets</span></h1>
-        <h1 class="heading-7">Because you already share everything with your friends</h1>
-      </div>
-      <div class="column-16 w-col w-col-6">
-        <div class="lottie-animation" data-w-id="0e796564-4137-d32c-7727-e48868b94937" data-animation-type="lottie" data-src="documents/Phone-gallery-remix-5.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2.3666666666666667" data-duration="0"></div>
-      </div>
-    </div>
-  </div>
-  <div class="container-4 w-container">
-    <div data-w-id="dd449985-48a1-9082-4e4c-b40b6ee78eb6" style="opacity:0" class="columns w-row">
-      <div class="column w-col w-col-6">
-        <h1 class="heading-4"><span class="text-span-2">Budget</span> what you spend on</h1>
-        <h1 class="heading-7">Because any extra savings would never hurt you</h1>
-      </div>
-      <div class="w-col w-col-6">
-        <div class="lottie-animation" data-w-id="c6dbd4d6-f4d3-6403-a455-2fb0a03c8194" data-animation-type="lottie" data-src="documents/Banking-app-remix-7.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="3.216666666666667" data-duration="0"></div>
-      </div>
-    </div>
-  </div>
-  <div class="container-5 w-container">
-    <div data-w-id="56b5542a-b1ad-b7eb-b6be-6a6b48660f74" style="opacity:0" class="columns w-row">
-      <div class="column w-col w-col-6">
-        <h1 class="heading-4">Pay with Shelf to <span class="text-span-3">track</span> your expenses</h1>
-        <h1 class="heading-7">Because we&#x27;d not want you to worry about your spendings</h1>
-      </div>
-      <div class="w-col w-col-6">
-        <div class="lottie-animation" data-w-id="0e99ad1f-c917-815a-ac7f-f274891a87b0" data-animation-type="lottie" data-src="documents/Motion-design-loop-remix-4.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="4.333333333333333" data-duration="0"></div>
-      </div>
-    </div>
-  </div>
-  <div id="Cards" class="container-6 w-container">
-    <div class="columns-7 w-row">
-      <div class="column-4 w-col w-col-6">
-        <h1 class="heading-8">Super Card for <span class="text-span-4">You </span>&amp;<span class="text-span-4"> Your Group</span></h1>
-        <h2 data-w-id="38132c4d-39e0-9b15-8314-7f4c48307fe7" style="opacity:0" class="heading-9">Tap &amp; Pay your way through all your expenses of the month</h2>
-      </div>
-      <div class="column-10 w-col w-col-6"><img src="images/fzdxghjgyukhi.png" loading="lazy" width="200" data-w-id="e56d10a8-c875-853d-8869-5f419a38eeac" sizes="(max-width: 991px) 100vw, 200px" alt="Debit Cards" srcset="images/fzdxghjgyukhi-p-500.png 500w, images/fzdxghjgyukhi-p-800.png 800w, images/fzdxghjgyukhi.png 808w" class="image-7"><img src="images/Party-Funds-card.png" loading="lazy" width="200" data-w-id="9f827c7a-d56b-8a1b-4dd8-4829e7695f39" sizes="(max-width: 991px) 100vw, 200px" alt="Group Cards" srcset="images/Party-Funds-card-p-500.png 500w, images/Party-Funds-card.png 800w" class="image-6"><img src="images/Color5.png" loading="lazy" width="300" srcset="images/Color5-p-500.png 500w, images/Color5.png 635w" sizes="(max-width: 479px) 67vw, (max-width: 767px) 39vw, (max-width: 1439px) 19vw, 20vw" alt="Group Payment Solution instead of splitting bills" class="image-2"></div>
-    </div>
-  </div>
-  <div id="Why-us" class="container-7 w-container">
-    <h1 data-w-id="0aac5173-b77f-10fb-7916-8c5a1b4f9102" style="opacity:0" class="heading-10">Shelves for your every need</h1>
-    <h2 class="heading-11">Banking. Payments. Savings. Investments.</h2><img src="images/Banking-Payments-Savings-and-Investment.png" loading="lazy" srcset="images/Banking-Payments-Savings-and-Investment-p-500.png 500w, images/Banking-Payments-Savings-and-Investment-p-800.png 800w, images/Banking-Payments-Savings-and-Investment-p-1080.png 1080w, images/Banking-Payments-Savings-and-Investment-p-1600.png 1600w, images/Banking-Payments-Savings-and-Investment-p-2000.png 2000w, images/Banking-Payments-Savings-and-Investment-p-2600.png 2600w, images/Banking-Payments-Savings-and-Investment-p-3200.png 3200w, images/Banking-Payments-Savings-and-Investment.png 3972w" alt="Banking. Payments. Savings. Investments." sizes="100vw" class="image-8">
-  </div>
-  <div class="container-8 w-container">
-    <div class="columns-6 w-row">
-      <div class="column-21 w-col w-col-4"></div>
-      <div class="column-19 w-col w-col-4"><img src="images/Group-11913.png" loading="lazy" width="200" srcset="images/Group-11913-p-500.png 500w, images/Group-11913-p-800.png 800w, images/Group-11913.png 1065w" sizes="(max-width: 479px) 48vw, (max-width: 767px) 49vw, (max-width: 991px) 25vw, (max-width: 1919px) 26vw, 27vw" alt="Backed by Y Combinator" class="image-10"></div>
-      <div class="column-20 w-col w-col-4"></div>
-    </div>
-  </div>
-  <div class="container-9 w-container">
-    <div class="columns-5 w-row">
-      <div class="w-col w-col-3"></div>
-      <div class="column-18 w-col w-col-6">
-        <h1 class="heading-12">Word on the street</h1>
-        <h4 class="heading-13">“It was quite <span class="text-span-10">difficult to manage my common expenses</span> with my co-founder, but with Shelf the process has <span class="text-span-11">become seamless</span>”</h4>
-        <h5 class="heading-14">Yash Khandelwal <span class="text-span-5">Co-Founder, Suspace</span></h5>
-        <h4 class="heading-13">“Really needed an app to cater to <span class="text-span-12">personal as well as group payments</span> and give me a <span class="text-span-13">holistic track of where I&#x27;m spending</span>. Shelf has provided me the ideal solution I was looking for”</h4>
-        <h5 class="heading-14">Mehul Shrimali <span class="text-span-5">Business Analyst, LG Ads</span></h5>
-        <h4 class="heading-13">“Shelf has been extremely useful for me and my room mates. All the expenses need not be noted anywhere, you just make the payment and the app handles  the split.”</h4>
-        <h5 class="heading-14">Abhay Gubrele <span class="text-span-5">Creative Producer, Peafowl Studio</span></h5>
-      </div>
-      <div class="w-col w-col-3"></div>
-    </div>
-  </div>
-  <div class="container-12 w-container">
-    <div class="wf-section">
-      <h1 class="heading-20">Word on the Street</h1>
-    </div>
-    <div class="section-2 wf-section">
-      <div class="columns-8 w-row">
-        <div class="column-25 w-col w-col-1 w-col-medium-1 w-col-small-small-stack w-col-tiny-tiny-stack"></div>
-        <div class="column-23 w-col w-col-3 w-col-medium-3 w-col-small-small-stack w-col-tiny-tiny-stack"><img src="images/Frame-1171278267.png" loading="lazy" srcset="images/Frame-1171278267-p-500.png 500w, images/Frame-1171278267-p-800.png 800w, images/Frame-1171278267.png 936w" sizes="(max-width: 479px) 57vw, (max-width: 767px) 49vw, (max-width: 991px) 23vw, 24vw" alt="" class="image-11"></div>
-        <div class="column-22 w-col w-col-4 w-col-medium-4 w-col-small-small-stack w-col-tiny-tiny-stack"><img src="images/Frame-1171278265.png" loading="lazy" srcset="images/Frame-1171278265-p-500.png 500w, images/Frame-1171278265-p-800.png 800w, images/Frame-1171278265.png 936w" sizes="(max-width: 479px) 54vw, (max-width: 767px) 45vw, 23vw" alt="" class="image-14"></div>
-        <div class="column-24 w-col w-col-3 w-col-medium-3 w-col-small-small-stack w-col-tiny-tiny-stack"><img src="images/Frame-1171278266.png" loading="lazy" srcset="images/Frame-1171278266-p-500.png 500w, images/Frame-1171278266-p-800.png 800w, images/Frame-1171278266.png 936w" sizes="(max-width: 479px) 57vw, (max-width: 767px) 49vw, (max-width: 991px) 23vw, 24vw" alt="" class="image-15"></div>
-        <div class="column-26 w-col w-col-1 w-col-medium-1 w-col-small-small-stack w-col-tiny-tiny-stack"></div>
-      </div>
-    </div>
-  </div>
-  <div class="container-14 w-container">
-    <h1 class="heading-21">Founders</h1>
-    <div class="columns-9 w-row">
-      <div class="w-col w-col-2"></div>
-      <div class="column-27 w-col w-col-4">
-        <ul role="list" class="w-list-unstyled">
-          <li class="list-item-3"><img src="images/Vedant_Website.png" loading="lazy" srcset="images/Vedant_Website-p-500.png 500w, images/Vedant_Website-p-800.png 800w, images/Vedant_Website-p-1080.png 1080w, images/Vedant_Website-p-1600.png 1600w, images/Vedant_Website.png 3008w" sizes="(max-width: 479px) 43vw, (max-width: 767px) 44vw, (max-width: 1439px) 14vw, 15vw" alt="" class="image-16"></li>
-          <li class="list-item-4">Vedant Kumar </li>
-          <li class="list-item-5">Business &amp; Growth</li>
-        </ul>
-        <div class="section-3 wf-section">
-          <a href="mailto:vedant@shelfpay.in" class="link-block w-inline-block"><img src="images/gmail.png" loading="lazy" alt="" class="image-17"></a>
-          <a href="https://www.linkedin.com/in/vedantkr/" target="_blank" class="link-block w-inline-block"><img src="images/LinkedIn---jpeg.png" loading="lazy" alt="" class="image-17"></a>
-        </div>
-      </div>
-      <div class="w-col w-col-4">
-        <ul role="list" class="w-list-unstyled">
-          <li class="list-item-3"><img src="images/Paras-Team.png" loading="lazy" srcset="images/Paras-Team-p-500.png 500w, images/Paras-Team-p-800.png 800w, images/Paras-Team-p-1080.png 1080w, images/Paras-Team.png 1112w" sizes="(max-width: 479px) 43vw, (max-width: 767px) 44vw, (max-width: 1439px) 14vw, 15vw" alt="" class="image-16"></li>
-          <li class="list-item-4">Paras Singh Rajput</li>
-          <li class="list-item-5">Product &amp; Tech</li>
-        </ul>
-        <div class="section-3 wf-section">
-          <a href="mailto:paras@shelfpay.in" class="link-block w-inline-block"><img src="images/gmail.png" loading="lazy" alt="" class="image-17"></a>
-          <a href="https://www.linkedin.com/in/paras-rajput-281794183/" target="_blank" class="link-block w-inline-block"><img src="images/LinkedIn---jpeg.png" loading="lazy" alt="" class="image-17"></a>
-        </div>
-      </div>
-      <div class="w-col w-col-2"></div>
-    </div>
-  </div>
-  <div class="container-10 w-container">
-    <div class="columns-4 w-row">
-      <div class="column-5 w-col w-col-3"></div>
-      <div class="w-col w-col-6">
-        <h1 class="heading-15">Get your bank-like experience on the go.</h1>
-        <div class="w-row">
-          <div class="column-13 w-col w-col-3"></div>
-          <div class="w-col w-col-6">
-            <a href="#Head" class="button-2 w-button">Get Access</a>
-            <div class="w-row">
-              <div class="column-14 w-col w-col-3"></div>
-              <div class="column-17 w-col w-col-6"><img src="images/App-Download-Link.png" loading="lazy" width="200" alt="Shelf: Coming Soon" class="image-9"></div>
-              <div class="column-12 w-col w-col-3"></div>
-            </div>
+        <div class="div-block">
+          <h1 class="heading">Pool money &amp; pay<br>together with</h1>
+          <div class="lottie-animation-4" data-w-id="6fe53a41-495d-fb1e-eb8c-476041856c66" data-animation-type="lottie"
+            data-src="documents/New-file-6.json" data-loop="1" data-direction="1" data-autoplay="1"
+            data-is-ix2-target="0" data-renderer="svg" data-duration="0"></div>
+          <div class="lottie-animation" data-w-id="d806fdb2-b87d-89a0-1bed-5bc0bf01cc00" data-animation-type="lottie"
+            data-src="documents/New-file-copy-1.json" data-loop="0" data-direction="1" data-autoplay="1"
+            data-is-ix2-target="0" data-renderer="svg" data-default-duration="6.016666666666667" data-duration="0">
           </div>
-          <div class="column-11 w-col w-col-3"></div>
+          <a href="#" class="button w-button" onclick="downloadApp()">Start now</a><img src="images/Available-on.svg"
+            loading="lazy" alt="" class="image-20">
         </div>
       </div>
-      <div class="column-15 w-col w-col-3"></div>
-    </div>
-  </div>
-  <section class="footer-dark wf-section">
-    <div class="container">
-      <div class="footer-wrapper">
-        <div class="div-block-6">
-          <ul role="list" class="list w-list-unstyled">
-            <li class="list-item-2"><img src="images/Shelf-Logo-Black.png" loading="lazy" width="100" alt="Neobank Logo"></li>
-            <li class="list-item">301/302, 3rd Floor, Saket Callipolis, Marathahalli - Sarjapur Rd, Doddakannelli, Bengaluru, Karnataka 560035, India<br><br>admin@shelfpay.in | +91 89046 76505<br><br><b>GST address :</b> 301/302, 3rd floor, Marathahalli - Sarjapur Rd Doddakannelli, Bengaluru, Bengaluru Urban, Karnataka, 560035</li>
-          </ul>
-        </div>
-        <div class="footer-content">
-          <div id="w-node-e1098567-24fa-1bb2-2519-cf01cc2bd215-82a63034" class="footer-block">
-            <div class="title-small">Company</div>
-            <a href="#About-Us" class="footer-link">About</a>
-            <a href="#Cards" class="footer-link">Cards</a>
-            <a href="#Why-us" class="footer-link">Why Us?</a>
-          </div>
-          <div id="w-node-d32ed0b8-a999-e1a1-2c6b-17d96acda04f-82a63034" class="footer-block">
-            <div class="title-small">Legals</div>
-            <a href="terms-and-conditions.html" target="_blank" class="footer-link">Terms &amp; Conditions</a>
-            <a href="privacy-policy.html" target="_blank" class="footer-link">Privacy policy</a>
-            <div class="footer-social-block">
-              <a href="https://www.instagram.com/shelfpay.in/" target="_blank" class="footer-social-link w-inline-block"><img src="images/87390.png" loading="lazy" width="15" alt=""></a>
-              <a href="https://www.linkedin.com/company/shelfpay" target="_blank" class="footer-social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/62434fa732124a0fb112aab4/62434fa732124a389912aad8_linkedin%20small.svg" loading="lazy" alt="Shelfpay Linkedin"></a>
-            </div>
+      <div class="column-20 w-col w-col-6">
+        <div class="lottie-animation-7" data-w-id="a3ceffa3-6a9a-f6cb-c9e3-865e5b4df2e6" data-animation-type="lottie"
+          data-src="documents/New-file-11.json" data-loop="0" data-direction="1" data-autoplay="1"
+          data-is-ix2-target="0" data-renderer="svg" data-default-duration="4" data-duration="0"></div><img
+          src="images/008.gif" loading="lazy" width="400" alt="" class="image-50">
+        <div data-poster-url="videos/008-poster-00001.jpg"
+          data-video-urls="videos/008-transcode.mp4,videos/008-transcode.webm" data-autoplay="true" data-loop="true"
+          data-wf-ignore="true" class="background-video w-background-video w-background-video-atom"><video
+            id="32a7c5d3-a89a-50c4-23ea-51d19ed0dbee-video" autoplay="" loop=""
+            style="background-image:url(&quot;videos/008-poster-00001.jpg&quot;)" muted="" playsinline=""
+            data-wf-ignore="true" data-object-fit="cover">
+            <source src="videos/008-transcode.mp4" data-wf-ignore="true">
+            <source src="videos/008-transcode.webm" data-wf-ignore="true">
+          </video><noscript>
+            <style>
+              [data-wf-bgvideo-fallback-img] {
+                display: none;
+              }
+
+              @media (prefers-reduced-motion: reduce) {
+                [data-wf-bgvideo-fallback-img] {
+                  position: absolute;
+                  z-index: -100;
+                  display: inline-block;
+                  height: 100%;
+                  width: 100%;
+                  object-fit: cover;
+                }
+              }
+            </style><img data-wf-bgvideo-fallback-img="true" src="documents/008.mp4" alt="">
+          </noscript>
+          <div aria-live="polite"><button type="button" data-w-bg-video-control="true"
+              aria-controls="32a7c5d3-a89a-50c4-23ea-51d19ed0dbee-video"
+              class="w-backgroundvideo-backgroundvideoplaypausebutton w-background-video--control"><span><img
+                  src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg"
+                  loading="lazy" alt="Pause video" class="image-51"></span><span hidden=""><img loading="lazy"
+                  alt="Play video"
+                  src="https://uploads-ssl.webflow.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg"></span></button>
           </div>
         </div>
       </div>
     </div>
-    <div class="footer-divider"></div>
-    <div class="footer-copyright-center">Shelfpay Pvt. Ltd. | Made with ❤️</div>
+    <div data-w-id="dbab5a30-47b0-9ee3-ce82-315070f8265d" class="div-block-4">
+      <div class="lottie-animation-2" data-w-id="e18b53d8-4024-a5e2-e95b-633e8405929a" data-animation-type="lottie"
+        data-src="documents/New-file-copy-7.json" data-loop="1" data-direction="1" data-autoplay="1"
+        data-is-ix2-target="0" data-renderer="svg" data-default-duration="24.933333333333334" data-duration="0"></div>
+    </div>
+    <div>
+      <div class="lottie-animation-3" data-w-id="1a4b45d2-ba46-2dbf-a9f8-c4d3a1c63207" data-animation-type="lottie"
+        data-src="documents/New-file-copy-6.json" data-loop="1" data-direction="1" data-autoplay="1"
+        data-is-ix2-target="0" data-renderer="svg" data-default-duration="15.966666666666667" data-duration="0"></div>
+    </div>
+  </div>
+  <div class="wf-section">
+    <div class="text-block-11">Pay anywhere with just a Single Tap!</div>
+    <div class="lottie-animation-5" data-w-id="0c7d2079-c933-8e84-d5a2-394aa9e623a7" data-animation-type="lottie"
+      data-src="documents/New-file-copy-9.json" data-loop="1" data-direction="1" data-autoplay="1"
+      data-is-ix2-target="0" data-renderer="svg" data-default-duration="13.283333333333333" data-duration="0"></div>
+    <div class="lottie-animation-6" data-w-id="0ab3ad6b-164a-f085-4072-5a8bd518f84a" data-animation-type="lottie"
+      data-src="documents/New-file-12.json" data-loop="0" data-direction="1" data-autoplay="1" data-is-ix2-target="0"
+      data-renderer="svg" data-default-duration="13.283333333333333" data-duration="0"></div>
+  </div>
+  <section id="About" class="section-7 wf-section">
+    <div class="div-block-5">
+      <h1 class="heading-6">What do we <br>do?</h1>
+    </div>
+    <div>
+      <div class="columns w-row">
+        <div class="column w-col w-col-8"><img src="images/Group-38195.svg" loading="lazy" alt="" class="image-25"><img
+            src="images/Fold-2-button1.svg" loading="lazy" alt="" class="image-21"><img src="images/Group-38192.svg"
+            loading="lazy" alt="" class="image-23"></div>
+        <div class="column-2 w-col w-col-4"><img src="images/Fold-2-Button-2.svg" loading="lazy" alt=""
+            class="image-22"><img src="images/Group-38176.svg" loading="lazy" alt="" class="image-49"></div>
+      </div>
+      <div class="columns-3 w-row">
+        <div class="column-9 w-col w-col-8">
+          <div class="columns-8 w-row">
+            <div class="column-13 w-col w-col-6"><img src="images/Group-38218.svg" loading="lazy" alt=""
+                class="image-41"></div>
+            <div class="column-12 w-col w-col-6"><img src="images/Group-38219.svg" loading="lazy" alt=""
+                class="image-42"></div>
+          </div>
+          <div class="columns-7 w-row">
+            <div class="column-18 w-col w-col-6 w-col-medium-6 w-col-small-6 w-col-tiny-6"><img
+                src="images/Group-38216.svg" loading="lazy" alt="" class="image-39"></div>
+            <div class="w-col w-col-6 w-col-medium-6 w-col-small-6 w-col-tiny-6"><img src="images/Group-38217.svg"
+                loading="lazy" alt="" class="image-40"></div>
+          </div><img src="images/Group-38177.svg" loading="lazy" alt="" class="image-6"><img
+            src="images/Group-38194.svg" loading="lazy" alt="" class="image-24">
+        </div>
+        <div class="column-19 w-col w-col-4"><img src="images/Group-38176.svg" loading="lazy" alt="" class="image-3">
+        </div>
+      </div>
+    </div>
   </section>
-  <div data-w-id="dd7ada13-2d29-b311-74af-05dadda365de" style="opacity:0;display:none" class="modal-wrapper">
-    <div data-w-id="e929feb0-adea-fa30-67c6-1af1934ed50f" style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(-4deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(-4deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(-4deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.8, 0.8, 1) rotateX(0) rotateY(0) rotateZ(-4deg) skew(0, 0);opacity:0" class="sign-up-form w-form">
-      <form id="email-form-2" name="email-form-2" data-name="Email Form 2" action="https://shelfpay.us14.list-manage.com/subscribe/post?u=68b87cc4cdf4d98bf950cdd8d&amp;amp;id=3e1ace8ef8" method="post">
-        <div class="form-hero">
-          <h2 class="heading-22">Get Access to Shelf</h2>
-          <p class="paragraph">Be a part of our closed-beta program. We would reach you out with the app on the contact information you provide below</p>
+  <div class="section wf-section">
+    <div class="div-block-6">
+      <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease"
+        data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+        data-duration="500" data-infinite="true">
+        <div class="mask w-slider-mask">
+          <div class="slide w-slide">
+            <div class="columns-4 w-row">
+              <div class="column-6 w-col w-col-6">
+                <h1 class="heading-7">Features</h1>
+                <h1 class="heading-8">that keep you<br>hooked 🤩</h1>
+                <a href="#" class="button-2 w-button">Get the App Now</a><img src="images/Available-on.svg"
+                  loading="lazy" alt="" class="image-7">
+              </div>
+              <div class="column-7 w-col w-col-6">
+                <div class="w-row">
+                  <div class="w-col w-col-7"><img src="images/Group-38178.svg" loading="lazy" alt="" class="image-8">
+                  </div>
+                  <div class="w-col w-col-5"><img src="images/SHBJABJK.svg" loading="lazy" alt="" class="image-10">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-slide"></div>
         </div>
-        <div class="form-row w-row">
-          <div class="w-col w-col-6"><label for="field" class="field-label">Email</label><input type="text" class="input w-input" maxlength="256" name="field" data-name="" placeholder="" id="field" required=""></div>
-          <div class="w-col w-col-6"><label for="email-3" class="field-label-2">Mobile</label><input type="tel" class="input w-input" maxlength="256" name="email-3" data-name="Email 3" placeholder="" id="email-3"></div>
-        </div><input type="submit" email-3="mobile" value="Submit" data-wait="Please wait..." field="email" class="submit-button w-button">
-      </form>
-      <div class="w-form-done">
-        <div>Thank you! We&#x27;ll reach you out soon!</div>
-      </div>
-      <div class="w-form-fail">
-        <div>Oops! Something went wrong while submitting the form.</div>
+        <div class="left-arrow w-slider-arrow-left">
+          <div class="w-icon-slider-left"></div>
+        </div>
+        <div class="right-arrow w-slider-arrow-right">
+          <div class="w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav w-slider-nav w-round"></div>
       </div>
     </div>
-    <div class="close-modal-button"><img src="images/delete.png" loading="lazy" data-w-id="0c2eee82-7be2-a2bd-42b0-71372b55f473" srcset="images/delete-p-500.png 500w, images/delete.png 512w" sizes="100vw" alt="" class="image-18"></div>
   </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62c0abfe738925707ba63033" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNGLCFTSRZ"></script>
+  <section id="Features" class="wf-section">
+    <div class="div-block-19">
+      <div class="columns-4 w-row">
+        <div class="column-6 w-col w-col-6">
+          <h1 class="heading-7">Features</h1>
+          <h1 class="heading-8">that keep you<br>hooked 🤩</h1>
+          <a href="#" class="button-2 w-button">Get the App Now</a><img src="images/Available-on.svg" loading="lazy"
+            alt="" class="image-7">
+        </div>
+        <div class="column-7 w-col w-col-6">
+          <div data-delay="4000" data-animation="slide" class="slider-2 w-slider" data-autoplay="false"
+            data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
+            data-nav-spacing="5" data-duration="500" data-infinite="true">
+            <div class="w-slider-mask">
+              <div class="slide-2 w-slide"><img loading="lazy" src="images/Group-38178.svg" alt="" class="image-11">
+              </div>
+              <div class="slide-3 w-slide"><img loading="lazy" src="images/Group-38180.svg" alt="" class="image-12">
+              </div>
+              <div class="slide-4 w-slide"><img src="images/Group-38181.svg" loading="lazy" alt="" class="image-13">
+              </div>
+            </div>
+            <div class="left-arrow-2 w-slider-arrow-left">
+              <div class="w-icon-slider-left"></div>
+            </div>
+            <div class="right-arrow-2 w-slider-arrow-right">
+              <div class="icon-9 w-icon-slider-right"></div>
+            </div>
+            <div class="slide-nav-4 w-slider-nav w-round"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container-x" style="width: 100%; margin : 0" id="About-Us">
+    <div class="header">
+      <div class="heading-container">
+        <span class="heading-y" style="margin-top: 30px;">Money Pools with your<br />loved ones</span>
+        <p>We know that the most fun you have is with your loved ones. So when you’re hanging out with them, you
+          shouldn’t be bothered by financial hassles!<br /><br />
+          Pool money on Shelf & focus on enjoying the moments with your friends and family!</p>
+      </div>
+      <img src="./images/Pool.svg" alt="Pool" class="image" style="margin-bottom: 40px; margin-top: 35px;" />
+    </div>
+    <div class="button-container">
+      <button class="start-button" onclick="downloadApp()">
+        <span>Start Now!</span>
+      </button>
+    </div>
+    <div class="calculator">
+      <div class="wrapper" id="wrap1">
+        <img src="./images/wrapper-bg.svg" class="top-vector" alt="wrapper bg" />
+        <span class="wrapper-heading">Know how much more you can save with Shelf</span>
+        <p>Your monthly income</p>
+        <div class="range-slider" >
+          
+          <div id="rs-bullet" class="rs-label" style="font-size: 10px;">₹ 70k</div>
+          <input id="rs-range-line" class="rs-range" type="range" value="70" step="5" size="5" min="0" max="250" >
+          <div class="box-minmax">
+            <span>₹ 1k</span><span>₹ 250k</span>
+          </div>
+        </div>
+        <button onclick="calculateValues()" class="contactButton"> Check out
+          <div class="iconButton">
+            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13.6362 5.89958C13.9074 5.6283 13.9074 5.18847 13.6362 4.91719L9.2154 0.496423C8.94412 0.225143 8.50429 0.225143 8.23301 0.496423C7.96172 0.767704 7.96172 1.20754 8.23301 1.47882L12.1626 5.40839L8.23301 9.33796C7.96172 9.60924 7.96172 10.0491 8.23301 10.3203C8.50429 10.5916 8.94412 10.5916 9.2154 10.3203L13.6362 5.89958ZM0.293823 6.10304H13.145V4.71373H0.293823V6.10304Z"
+                fill="white" />
+            </svg>
+
+          </div>
+        </button>
+        <img src="./images/wallet.svg" alt="wrapper bg" class="wallet" />
+        <img src="./images/money-pot.svg" alt="wrapper bg" class="money-pot" />
+      </div>
+
+      <div class="wrapper2" id="wrap2" style="display: none;">
+        <img src="./images/wrapper-bg.svg" class="top-vector" alt="wrapper bg" />
+        <div class="saving-container">
+          <div class="savings">
+            <span class="saving">Ideal monthly savings you should have</span>
+            <h1 class="ideal-saving" id="ideal-save">₹20,000</h1>
+          </div>
+          <div class="savings">
+            <span class="saving">What Shelf users can easily save</span>
+            <h1 class="ideal-saving" style="color: #3052D7;" id="shelf-save">₹30,000</h1>
+          </div>
+        </div>
+        <h3>Wondering How?</h3>
+        <h2>Checkout our Features!</h2>
+        <img src="./images/money-pile.svg" alt="wrapper bg" class="wallet" />
+        <img src="./images/money-plant.svg" alt="wrapper bg" class="money-pot" style="bottom : 5px; right : 5px" />
+      </div>
+
+    </div>
+  </div>
+  <!-- <div class="section-10 wf-section">
+    <div class="columns-17 w-row">
+      <div class="column-33 w-col w-col-3 w-col-stack">
+        <h1 class="heading-13">Money Pools with your loved ones</h1>
+      </div>
+      <div class="column-35 w-col w-col-3 w-col-stack"><img src="images/Money-Pool.png" loading="lazy"
+          sizes="(max-width: 479px) 67vw, (max-width: 991px) 39vw, 100vw"
+          srcset="images/Money-Pool.png 500w, images/Money-Pool.png 800w, images/Money-Pool.png 1080w, images/Money-Pool.png 1600w, images/Money-Pool.png 1828w"
+          alt="" class="image-57"></div>
+      <div class="column-32 w-col w-col-3 w-col-stack">
+        <p class="paragraph-4">We know that the most fun you have is with your loved ones. So when you’re hanging out
+          with them, you shouldn’t be bothered by financial hassles!<br><br>Pool money on Shelf &amp; focus on enjoying
+          the moments with your friends and family!</p>
+      </div>
+      <div class="column-34 w-col w-col-3 w-col-stack">
+        <a href="#" class="button-3 w-button">Start now</a>
+      </div>
+    </div>
+    <div class="calculator">
+      <div class="wrapper" id="wrap1">
+        <img src="./images/wrapper-bg.svg" class="top-vector" alt="wrapper bg" />
+        <span class="wrapper-heading">Know how much more you can save with Shelf</span>
+        <p>Your monthly income</p>
+        <div class="range-slider">
+          <div class="box-minmax">
+            <span>₹ 1k</span><span>₹ 250k</span>
+          </div>
+          <div class="range-slider">
+            <span id="rs-bullet" class="rs-label" style="font-size: 10px;">₹ 70k</span>
+            <input id="rs-range-line" class="rs-range" type="range" value="70" step="5" size="5" min="0" max="250">
+          </div>
+        </div>
+        <button onclick="calculateValues()" class="contactButton"> Check out
+          <div class="iconButton">
+            <svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M13.6362 5.89958C13.9074 5.6283 13.9074 5.18847 13.6362 4.91719L9.2154 0.496423C8.94412 0.225143 8.50429 0.225143 8.23301 0.496423C7.96172 0.767704 7.96172 1.20754 8.23301 1.47882L12.1626 5.40839L8.23301 9.33796C7.96172 9.60924 7.96172 10.0491 8.23301 10.3203C8.50429 10.5916 8.94412 10.5916 9.2154 10.3203L13.6362 5.89958ZM0.293823 6.10304H13.145V4.71373H0.293823V6.10304Z"
+                fill="white" />
+            </svg>
+
+          </div>
+        </button>
+        <img src="./images/wallet.svg" alt="wrapper bg" class="wallet" />
+        <img src="./images/money-pot.svg" alt="wrapper bg" class="money-pot" />
+      </div>
+
+      <div class="wrapper2" id="wrap2" style="display: none;">
+        <img src="./images/wrapper-bg.svg" class="top-vector" alt="wrapper bg" />
+        <div class="saving-container">
+          <div class="savings">
+            <span class="saving">Ideal monthly savings you should have</span>
+            <h1 class="ideal-saving" id="ideal-save">₹20,000</h1>
+          </div>
+          <div class="savings">
+            <span class="saving">What Shelf users can easily save</span>
+            <h1 class="ideal-saving" style="color: #3052D7;" id="shelf-save">₹30,000</h1>
+          </div>
+        </div>
+        <h3>Wondering How?</h3>
+        <h2>Checkout our Features!</h2>
+        <img src="./images/money-pile.svg" alt="wrapper bg" class="wallet" />
+        <img src="./images/money-plant.svg" alt="wrapper bg" class="money-pot" style="bottom : 5px; right : 5px" />
+      </div>
+
+    </div>
+  </div> -->
+  <section id="What-s-on-Shelf" class="section-8 wf-section">
+    <div class="div-block-23"><img src="images/Group-38607.svg" loading="lazy" alt="" class="image-54">
+      <div class="lottie-animation-8" data-w-id="cf23647e-606b-d7ba-df5c-017b180a2306" data-animation-type="lottie"
+        data-src="documents/data4.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0"
+        data-renderer="svg" data-default-duration="8" data-duration="0"></div>
+    </div>
+    <div>
+      <div class="columns-14 w-row">
+        <div class="column-27 w-col w-col-6"><img src="images/Group-38604.png" loading="lazy"
+            sizes="(max-width: 479px) 67vw, (max-width: 767px) 68vw, (max-width: 991px) 34vw, (max-width: 1919px) 24vw, 25vw"
+            srcset="images/Group-38604-p-500.png 500w, images/Group-38604-p-800.png 800w, images/Group-38604.png 911w"
+            alt="" class="image-53"></div>
+        <div class="column-26 w-col w-col-6">
+          <h1 class="heading-12">Create groups with the people close to you</h1>
+          <p class="paragraph-2">Pool money in these groups for all your common payments<br><span
+              class="text-span"><br>“Fun sath karte ho, paise bhi sath rakh lo”</span></p>
+        </div>
+      </div>
+      <div class="columns-12 w-row">
+        <div class="column-29 w-col w-col-6">
+          <h1>Make Payments anywhere</h1>
+          <p class="paragraph-3">Pay as a group both online &amp; offline and earn exciting rewards<br><br><span
+              class="text-span-2">“Khushiya batne se hi badhti hai”</span></p>
+        </div>
+        <div class="column-28 w-col w-col-6"><img src="images/Group-38605.png" loading="lazy"
+            sizes="(max-width: 991px) 100vw, (max-width: 1919px) 24vw, 25vw"
+            srcset="images/Group-38605-p-500.png 500w, images/Group-38605-p-800.png 800w, images/Group-38605.png 828w"
+            alt="" class="image-55"></div>
+      </div>
+      <div class="columns-13 w-row">
+        <div class="column-27 w-col w-col-6"><img src="images/Group-38605.png" loading="lazy"
+            sizes="(max-width: 479px) 67vw, (max-width: 767px) 68vw, (max-width: 991px) 34vw, 100vw"
+            srcset="images/Group-38605-p-500.png 500w, images/Group-38605-p-800.png 800w, images/Group-38605.png 828w"
+            alt="" class="image-53"></div>
+        <div class="column-26 w-col w-col-6">
+          <h1 class="heading-12">Make Payments anywhere</h1>
+          <p class="paragraph-2">Pay as a group both online &amp; offline and earn exciting rewards<br>‍<span
+              class="text-span"><br>“Khushiya batne se hi badhti hai”</span></p>
+        </div>
+      </div>
+      <div class="columns-15 w-row">
+        <div class="column-27 w-col w-col-6"><img src="images/Group-38606.png" loading="lazy"
+            sizes="(max-width: 479px) 67vw, (max-width: 767px) 68vw, (max-width: 991px) 34vw, (max-width: 1919px) 24vw, 25vw"
+            srcset="images/Group-38606-p-500.png 500w, images/Group-38606-p-800.png 800w, images/Group-38606.png 854w"
+            alt="" class="image-53"></div>
+        <div class="column-26 w-col w-col-6">
+          <h1 class="heading-12">Experience 0 Effort Splitting</h1>
+          <p class="paragraph-2">All your expenses get tracked &amp; you always pay for only your share<br>‍<span
+              class="text-span"><br>“ab paise mangne nahi padenge”</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Cards" class="section-4 wf-section">
+    <div>
+      <div data-delay="4000" data-animation="slide" class="slider-6 w-slider" data-autoplay="false" data-easing="ease"
+        data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+        data-duration="500" data-infinite="true">
+        <div class="w-slider-mask">
+          <div class="w-slide"><img loading="lazy" src="images/Frame-1171278768.svg" alt=""></div>
+          <div class="w-slide"><img loading="lazy" src="images/Frame-1171278769.svg" alt=""></div>
+          <div class="w-slide"><img loading="lazy" src="images/Frame-1171278766_1.svg" alt=""></div>
+          <div class="w-slide"><img src="images/Frame-1171278770.svg" loading="lazy" alt=""></div>
+        </div>
+        <div class="w-slider-arrow-left">
+          <div class="w-icon-slider-left"></div>
+        </div>
+        <div class="w-slider-arrow-right">
+          <div class="w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav-6 w-slider-nav w-round"></div>
+      </div>
+    </div>
+    <div><img src="images/Group-38209.svg" loading="lazy" alt=""></div>
+  </section>
+  <div class="section-3 wf-section">
+    <div>
+      <div data-delay="4000" data-animation="slide" class="slider-3 w-slider" data-autoplay="false" data-easing="ease"
+        data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+        data-duration="500" data-infinite="true">
+        <div class="mask-2 w-slider-mask">
+          <div class="w-slide"><img loading="lazy" src="images/Group-38184.svg" alt="" class="image-15"><img
+              src="images/Mask-group.svg" loading="lazy" alt="" class="image-26"></div>
+          <div class="w-slide"><img loading="lazy" src="images/Group-38188.svg" alt="" class="image-27"><img
+              src="images/Mask-group-3.svg" loading="lazy" alt="" class="image-28"></div>
+          <div class="w-slide"><img loading="lazy" src="images/Group-38189.svg" alt="" class="image-29"><img
+              src="images/Mask-group-1.svg" loading="lazy" alt="" class="image-30"></div>
+          <div class="w-slide"><img src="images/Group-38190.svg" loading="lazy" alt="" class="image-31"><img
+              src="images/Mask-group-2.svg" loading="lazy" alt="" class="image-32"></div>
+        </div><img src="images/sabja.svg" loading="lazy" alt="" class="image-17">
+        <div class="left-arrow-3 w-slider-arrow-left">
+          <div class="icon w-icon-slider-left"></div>
+        </div>
+        <div class="w-slider-arrow-right">
+          <div class="icon-2 w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav-2 w-slider-nav w-round"></div>
+      </div>
+      <div data-delay="4000" data-animation="slide" class="slider-8 w-slider" data-autoplay="false" data-easing="ease"
+        data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+        data-duration="500" data-infinite="true">
+        <div class="w-slider-mask">
+          <div class="w-slide"><img loading="lazy" src="images/Frame-1171278774.svg" alt=""></div>
+          <div class="w-slide"><img loading="lazy" src="images/Frame-1171278776.svg" alt=""></div>
+          <div class="w-slide"><img loading="lazy" src="images/Frame-1171278772.svg" alt=""></div>
+          <div class="w-slide"><img src="images/Frame-1171278777.svg" loading="lazy" alt=""></div>
+        </div>
+        <div class="w-slider-arrow-left">
+          <div class="icon-6 w-icon-slider-left"></div>
+        </div>
+        <div class="w-slider-arrow-right">
+          <div class="icon-7 w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav-7 w-slider-nav w-round"></div>
+      </div><img src="images/Group-38211.svg" loading="lazy" alt="">
+    </div>
+  </div>
+  <section id="Testimonials" class="wf-section">
+    <div class="div-block-8">
+      <h1 class="heading-9">Thousands of people are building <br>a better group experience with Shelf</h1>
+      <div data-delay="4000" data-animation="slide" class="slider-4 w-slider" data-autoplay="false" data-easing="ease"
+        data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+        data-duration="500" data-infinite="true">
+        <div class="w-slider-mask">
+          <div class="slide-6 w-slide">
+            <div class="w-row">
+              <div class="w-col w-col-6">
+                <div class="div-block-7"><img sizes="(max-width: 767px) 100vw, 99.703125px"
+                    srcset="images/Screenshot-2023-03-20-at-2.22.17-PM-p-500.png 500w, images/Screenshot-2023-03-20-at-2.22.17-PM.png 672w"
+                    src="images/Screenshot-2023-03-20-at-2.22.17-PM.png" loading="lazy" alt="" class="image-18">
+                  <p class="paragraph">Shelf has been extremely useful for me and my roommates. It has helped improve
+                    our group dynamics. We now do not need to ask for our money</p>
+                  <div class="text-block-4">Abhay Gubrele</div>
+                  <div class="text-block-5">Creative Producer, Peafowl Studio</div>
+                </div>
+              </div>
+              <div class="w-col w-col-6">
+                <div class="div-block-7"><img loading="lazy" src="images/Yash-DP.jpeg" alt="" class="image-18">
+                  <p class="paragraph">There was no way to club expenses with my co-founder and pay anywhere, but Shelf
+                    has now made the process seamless for us<br>‍</p>
+                  <div class="text-block-4">Yash Khandelwal</div>
+                  <div class="text-block-5">Co-Founder, Dashwave</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide-6 w-slide">
+            <div class="w-row">
+              <div class="w-col w-col-6">
+                <div class="div-block-7"><img sizes="(max-width: 767px) 100vw, 98.890625px"
+                    srcset="images/Mehul_Passport-Photo-p-500.jpg 500w, images/Mehul_Passport-Photo.jpg 625w"
+                    src="images/Mehul_Passport-Photo.jpg" loading="lazy" alt="" class="image-18">
+                  <p class="paragraph">Really needed an app to cater to personal as well as group payments, so that I
+                    could manage my money from one place. Shelf seems to be working well for me &amp; my friend</p>
+                  <div class="text-block-4">Mehul Shrimali</div>
+                  <div class="text-block-5">Business Analyst, LG Ads</div>
+                </div>
+              </div>
+              <div class="w-col w-col-6">
+                <div class="div-block-7"><img sizes="(max-width: 767px) 100vw, 100px"
+                    srcset="images/Screenshot-2023-04-15-at-5.08-1-p-500.png 500w, images/Screenshot-2023-04-15-at-5.08-1.png 524w"
+                    src="images/Screenshot-2023-04-15-at-5.08-1.png" loading="lazy" alt="" class="image-18">
+                  <p class="paragraph">It&#x27;s easy for me to manage my group expenses and I have been in control of
+                    my budget since the day I started using Shelf. Rent payment &amp; ordering groceries with my
+                    roommate has been the highlight.</p>
+                  <div class="text-block-4">Nikhel Kallingal</div>
+                  <div class="text-block-5">Advocate</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-slider-arrow-left">
+          <div class="w-icon-slider-left"></div>
+        </div>
+        <div class="w-slider-arrow-right">
+          <div class="w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav-3 w-slider-nav w-round"></div>
+      </div>
+      <div data-delay="4000" data-animation="slide" class="slider-7 w-slider" data-autoplay="false" data-easing="ease"
+        data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+        data-duration="500" data-infinite="true">
+        <div class="w-slider-mask">
+          <div class="slide-9 w-slide">
+            <div class="div-block-7"><img sizes="(max-width: 479px) 72vw, (max-width: 767px) 99.703125px, 100vw"
+                srcset="images/Screenshot-2023-03-20-at-2.22.17-PM-p-500.png 500w, images/Screenshot-2023-03-20-at-2.22.17-PM.png 672w"
+                src="images/Screenshot-2023-03-20-at-2.22.17-PM.png" loading="lazy" alt="" class="image-18">
+              <p class="paragraph">Shelf has been extremely useful for me and my roommates. It has helped improve our
+                group dynamics. We now do not need to ask for our money</p>
+              <div class="text-block-4">Abhay Gubrele</div>
+              <div class="text-block-5">Producer, Peafowl Studio</div>
+            </div>
+          </div>
+          <div class="slide-11 w-slide">
+            <div class="div-block-7"><img loading="lazy" src="images/Yash-DP.jpeg" alt="" class="image-18">
+              <p class="paragraph">There was no way to club expenses with my co-founder and pay anywhere, but Shelf has
+                now made the process seamless for us<br></p>
+              <div class="text-block-4">Yash Khandelwal</div>
+              <div class="text-block-5">Co-Founder, Dashwave</div>
+            </div>
+          </div>
+          <div class="slide-10 w-slide">
+            <div class="div-block-7"><img sizes="(max-width: 479px) 72vw, (max-width: 767px) 98.890625px, 100vw"
+                srcset="images/Mehul_Passport-Photo-p-500.jpg 500w, images/Mehul_Passport-Photo.jpg 625w"
+                src="images/Mehul_Passport-Photo.jpg" loading="lazy" alt="" class="image-18">
+              <p class="paragraph">Needed an app to cater to personal &amp; group payments, so that I could manage my
+                money from one place. Shelf seems to be working well for me &amp; my friend</p>
+              <div class="text-block-4">Mehul Shrimali</div>
+              <div class="text-block-5">Business Analyst, LG Ads</div>
+            </div>
+          </div>
+          <div class="slide-12 w-slide">
+            <div class="div-block-7"><img sizes="(max-width: 479px) 72vw, (max-width: 767px) 100px, 100vw"
+                srcset="images/Screenshot-2023-04-15-at-5.08-1-p-500.png 500w, images/Screenshot-2023-04-15-at-5.08-1.png 524w"
+                src="images/Screenshot-2023-04-15-at-5.08-1.png" loading="lazy" alt="" class="image-18">
+              <p class="paragraph">It&#x27;s easy for me to manage my group expenses and I have been in control of my
+                budget since the day I started using Shelf</p>
+              <div class="text-block-4">Nikhel Kallingal</div>
+              <div class="text-block-5">Advocate</div>
+            </div>
+          </div>
+        </div>
+        <div class="w-slider-arrow-left">
+          <div class="icon-4 w-icon-slider-left"></div>
+        </div>
+        <div class="w-slider-arrow-right">
+          <div class="icon-5 w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav-8 w-slider-nav w-round"></div>
+      </div>
+    </div>
+  </section>
+  <div class="wf-section">
+    <div class="div-block-10">
+      <div class="text-block-7">Backed By</div>
+      <div class="columns-6 w-row">
+        <div class="column-10 w-col w-col-4"><img src="images/Group-38212.svg" loading="lazy" alt="" class="image-37">
+        </div>
+        <div class="column-8 w-col w-col-4"><img src="images/Group-38213.svg" loading="lazy" alt="" class="image-36">
+        </div>
+        <div class="column-11 w-col w-col-4"><img src="images/Group-38214.svg" loading="lazy" alt="" class="image-38">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-2 wf-section">
+    <div>
+      <div data-delay="4000" data-animation="slide" class="slider-5 w-slider" data-autoplay="false" data-easing="ease"
+        data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+        data-duration="500" data-infinite="true">
+        <div class="mask-3 w-slider-mask">
+          <div class="slide-8 w-slide"><img src="images/Frame-1171278767.svg" loading="lazy" alt="" class="image-34">
+          </div>
+          <div class="w-slide"><img src="images/Frame-1171278766.svg" loading="lazy" alt="" class="image-35"></div>
+        </div>
+        <div class="left-arrow-4 w-slider-arrow-left">
+          <div class="icon-3 w-icon-slider-left"></div>
+        </div>
+        <div class="right-arrow-3 w-slider-arrow-right">
+          <div class="w-icon-slider-right"></div>
+        </div>
+        <div class="slide-nav-5 w-slider-nav w-round"></div>
+      </div>
+    </div>
+    <div><img src="images/Group-38204.svg" loading="lazy" alt="" class="image-33"></div>
+  </div>
+  <div class="wf-section">
+    <div class="div-block-20"><img src="images/Shelf-Logo-Website.svg" loading="lazy" alt="" class="image-52"></div>
+    <div class="div-block-22">
+      <h1 class="heading-11">Start Shelfing money with friends today!</h1>
+    </div>
+    <div class="div-block-21">
+      <div class="w-row">
+        <div class="column-24 w-col w-col-4"></div>
+        <a href="https://play.google.com/store/apps/details?id=com.shelf_frontend_new&pli=1">
+          <div class="column-22 w-col w-col-2"><img src="images/Group-38568.png" loading="lazy" alt=""></div>
+        </a>
+        <a href="https://testflight.apple.com/join/be1LYdPc">
+          <div class="column-23 w-col w-col-2"><img src="images/Group-38570.png" loading="lazy" alt=""></div>
+        </a>
+        <div class="column-25 w-col w-col-4"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="wf-section">
+    <div>
+      <div class="columns-9 w-row">
+        <div class="column-14 w-col w-col-2">
+          <ul role="list" class="list w-list-unstyled">
+            <li class="list-item">PRODUCTS</li>
+            <li class="list-item-3">
+              <a href="#Features" class="list-item-2">Features</a>
+            </li>
+            <li class="list-item-3">
+              <a href="https://play.google.com/store/apps/details?id=com.shelf_frontend_new"
+                class="list-item-2">Download</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column-15 w-col w-col-2">
+          <ul role="list" class="list-2 w-list-unstyled">
+            <li class="list-item-4">LEGAL</li>
+            <li class="list-item-6">
+              <a style="text-decoration:none; color: white;" href="/terms-and-conditions.html">
+                Terms & Conditions
+              </a>
+            </li>
+            <li class="list-item-5">
+              <a style="text-decoration:none; color: white;" href="/privacy-policy.html">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="column-16 w-col w-col-2">
+          <ul role="list" class="list-3 w-list-unstyled">
+            <li class="list-item-7">COMPANY</li>
+            <li class="list-item-8">
+              <a href="#About" class="list-item-2">About Us</a>
+            </li>
+            <li class="list-item-9">
+              <a href="#Testimonials" class="list-item-2">Why Us?</a>
+            </li>
+            <li class="list-item-9">
+              <a href="mailto:admin@shelfpay.in" class="list-item-2">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column-17 w-col w-col-6">
+          <div><img src="images/Shelf-Logo-Website.svg" loading="lazy" alt="" class="image-43"></div>
+          <div class="text-block-8">301/302, 3rd Floor, Saket Callipolis, Marathahalli - Sarjapur Rd, Doddakannelli,
+            Bengaluru, Karnataka 560035, India<br>‍<br>admin@shelfpay.in | +91 89046 76505</div>
+          <div class="text-block-9">FIND US ON</div>
+          <div class="div-block-16"><img src="images/ph_instagram-logo.png" loading="lazy" alt="" class="image-44"><img
+              src="images/mdi_linkedin.png" loading="lazy" alt="" class="image-45"><img src="images/mdi_twitter.png"
+              loading="lazy" alt="" class="image-46"><img src="images/material-symbols_mail.png" loading="lazy" alt=""
+              class="image-47"></div>
+        </div>
+      </div>
+      <div class="columns-11 w-row">
+        <div class="column-21 w-col w-col-6">
+          <div class="div-block-18"><img src="images/Shelf-Logo-Website.svg" loading="lazy" alt="" class="image-43">
+          </div>
+          <div class="text-block-12">India&#x27;s 1st Shared Payments App</div>
+          <div class="text-block-8">301/302, 3rd Floor, Saket Callipolis, Marathahalli - Sarjapur Rd, Doddakannelli,
+            Bengaluru, Karnataka 560035, India<br>‍<br>admin@shelfpay.in | +91 89046 76505</div>
+          <div class="text-block-9">FIND US ON</div>
+          <div class="div-block-16">
+            <a href="https://www.instagram.com/shelfpay.in/">
+              <img src="images/ph_instagram-logo.png" loading="lazy" alt="" class="image-44">
+            </a>
+            <a href="https://www.linkedin.com/company/shelfpay/">
+              <img src="images/mdi_linkedin.png" loading="lazy" alt="" class="image-45">
+            </a>
+
+            <a href="https://twitter.com/Shelfpay">
+              <img src="images/mdi_twitter.png" loading="lazy" alt="" class="image-46">
+            </a>
+            <a href="mailto:admin@shelfpay.in" class="list-item-2">
+              <img src="images/material-symbols_mail.png" loading="lazy" alt="" class="image-47">
+            </a>
+          </div>
+        </div>
+        <div class="w-col w-col-2">
+          <ul role="list" class="list w-list-unstyled">
+            <li class="list-item">PRODUCTS</li>
+            <li class="list-item-3">
+              <a href="#What-s-on-Shelf" class="list-item-2">Features</a>
+            </li>
+            <li class="list-item-3">
+              <a href="https://play.google.com/store/apps/details?id=com.shelf_frontend_new"
+                class="list-item-2">Download</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-col w-col-2">
+          <ul role="list" class="list-2 w-list-unstyled">
+            <li class="list-item-4">LEGAL</li>
+            <li class="list-item-6">
+              <a style="text-decoration:none; color: white;" href="/terms-and-conditions.html">
+                Terms & Conditions
+              </a>
+            </li>
+            <li class="list-item-5">
+              <a style="text-decoration:none; color: white;" href="/privacy-policy.html">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-col w-col-2">
+          <ul role="list" class="list-3 w-list-unstyled">
+            <li class="list-item-7">COMPANY</li>
+            <li class="list-item-8">
+              <a href="#About-Us" class="list-item-2">About Us</a>
+            </li>
+            <li class="list-item-9">
+              <a href="#Testimonials" class="list-item-2">Why Us?</a>
+            </li>
+            <li class="list-item-9">
+              <a href="mailto:admin@shelfpay.in" class="list-item-2">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="div-block-17"><img src="images/Line-71.svg" loading="lazy" alt="" class="image-48">
+      <div class="text-block-10">© Shelfpay Private Limited | Made with ❤️</div>
+    </div>
+  </div>
+   <script src="./js/custom.js" async defer></script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63e8ed1568e326a83de7352c"
+    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src=“https://www.googletagmanager.com/gtag/js?id=G-KGWP7J7C6C”></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'G-VNGLCFTSRZ');
+  gtag('config', 'G-KGWP7J7C6C');
 </script>
-  <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
+
 </html>
+
+<script>
+  function getOS() {
+    var userAgent = window.navigator.userAgent,
+      platform = window.navigator.platform,
+      macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+      windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+      iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+      os = null;
+
+    if (macosPlatforms.indexOf(platform) !== -1) {
+      os = 'Mac OS';
+    } else if (iosPlatforms.indexOf(platform) !== -1) {
+      os = 'iOS';
+    } else if (windowsPlatforms.indexOf(platform) !== -1) {
+      os = 'Windows';
+    } else if (/Android/.test(userAgent)) {
+      os = 'Android';
+    } else if (!os && /Linux/.test(platform)) {
+      os = 'Linux';
+    }
+
+    return os;
+  }
+
+  function downloadApp() {
+    let currentIos = getOS();
+    if (currentIos === "iOS") {
+      window.location.href = "https://testflight.apple.com/join/be1LYdPc"
+    } else {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.shelf_frontend_new&pli=1"
+    }
+  }
+</script>
